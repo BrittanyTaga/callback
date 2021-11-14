@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>W7D3 Homework</title>
+  </head>
+  <body>
+    <div class="header-styling">
+        <h1>Tech Talent South Homework</h1>
+        <h3>Week 7 Day 3 JavaScript Callbacks</h3>
+    </div><br>
+
+    <!-- clock -->
+    <p style="text-align: center;">Example of an asynchronous function:</p>
+    <p style="text-align: center;">This clock function will run every 1000ms and update the current time.</p>
+    <div class="clock-styling">
+        <div id="clock"></div>
+    </div>
+    <br><br><br>
+    <!-- calculator -->
+    <div id="styling-div">
+        <p>
+            This calculator will show the usage of callback functions.
+        </p>
+        <p>
+            Enter 2 numbers than select a calculation for us to perform.
+        </p>
+        <div>
+            <input type="text" id="num1">
+            <input type="text" id="num2">
+        </div><br>
+        <div>
+            <button type="button" id="addition">Addition</button>
+            <button type="button" id="subtraction">Subtraction</button>
+            <button type="button" id="multiplication">Multiplication</button>
+            <button type="button" id="division">Division</button>
+        </div>
+        <br>
+        <div>
+            <p>
+                Or use one of our single number calculations.
+            </p>
+        </div>
+        <div>
+            <input type="text" id="num3">
+        </div><br>
+        <div>
+            <button type="button" id="squareRoot">Square Root</button>
+            <button type="button" id="square">Square</button>
+            <button type="button" id="absoluteValue">Absolute Value</button>
+        </div>
+        <div class="calc-styling">
+            <p>
+                Result :
+            </p>
+            <div id="calc"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
